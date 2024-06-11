@@ -1,0 +1,49 @@
+
+
+.cards{
+    width: 100%;
+
+}
+
+.cards .cards-main{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.cards .cards-main .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 24rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.119);
+}
+
+.cards .cards-main .card .img{
+    width: 100%;
+}
+
+.cards .cards-main .card .img img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: 15.5rem;
+}
+
+.cards .cards-main .card .price{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards .cards-main .card .price .like{ 
+    
+    font-size: 5rem;
+}
